@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#170d20">
+  <meta name="description" content="Kejutan ulang tahun kecil untuk Afi, dari sahabatmu.">
+  <title>Happy Birthday, Afi ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <button class="music-toggle" id="musicToggle" aria-label="Putar atau hentikan musik">♫ <span>Musik</span></button>
+
+  <main>
+    <section class="page hero active" id="home">
+      <div class="hero-glow"></div>
+      <p class="eyebrow">Untuk sahabat terbaikku, Afi ♡</p>
+      <div class="floating-heart heart-one">♥</div>
+      <div class="floating-heart heart-two">♡</div>
+      <p class="script-title">Happy Birthday</p>
+      <h1>Afi<span class="pink">.</span></h1>
+      <p class="intro">Hari ini tentang kamu, tentang semua hal baik<br class="desktop"> yang kamu bawa ke dunia ini.</p>
+      <p class="intro small-intro">Terima kasih sudah selalu ada, menjadi sahabat yang luar biasa. ♡</p>
+      <button class="primary-btn" id="openSurprise">♥ &nbsp; Buka Kejutan</button>
+      <p class="scroll-note">Scroll ke bawah untuk menjelajah <span>↓</span></p>
+      <div class="bottom-silhouette" aria-hidden="true"></div>
+    </section>
+
+    <section class="page memories" id="memories">
+      <p class="eyebrow">Bagian kecil dari cerita kita</p>
+      <h2 class="script-heading">Foto Kenangan Kita</h2>
+      <p class="section-subtitle">Bersama kamu, hidup jadi lebih warna-warni. ♡</p>
+      <div class="photo-grid">
+        <figure class="polaroid tilt-left">
+          <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=85" alt="Sekelompok sahabat sedang bersama" loading="lazy">
+          <figcaption>Ketawa bareng selalu ♡</figcaption>
+        </figure>
+        <figure class="polaroid tilt-right">
+          <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=800&q=85" alt="Pemandangan senja yang hangat" loading="lazy">
+          <figcaption>Jalan-jalan bareng ♡</figcaption>
+        </figure>
+        <figure class="polaroid tilt-right">
+          <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=85" alt="Teman-teman menghabiskan waktu bersama" loading="lazy">
+          <figcaption>Momen random tapi berharga ♡</figcaption>
+        </figure>
+        <figure class="polaroid tilt-left">
+          <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=800&q=85" alt="Perayaan bersama teman-teman" loading="lazy">
+          <figcaption>Sahabat selamanya ♡</figcaption>
+        </figure>
+      </div>
+      <p class="memory-note">Foto-foto ini bisa kamu ganti dengan foto asli kalian. Kenangan sederhana pun selalu berarti.</p>
+      <button class="outline-btn" data-next="letter">Lanjut ke surat rahasia →</button>
+    </section>
+
+    <section class="page letter-page" id="letter">
+      <p class="eyebrow">Ada sesuatu yang ingin kusampaikan</p>
+      <h2 class="script-heading">Surat Ucapan Rahasia</h2>
+      <p class="section-subtitle">Buka surat ini hanya untukmu, Afi. ♡</p>
+      <button class="envelope" id="envelope" aria-label="Buka surat ulang tahun">
+        <span class="envelope-flap"></span>
+        <span class="envelope-heart">♥</span>
+        <span class="envelope-label">Untuk Afi</span>
+      </button>
+      <article class="letter-card" id="letterCard" aria-hidden="true">
+        <p>Hai Afi,</p>
+        <p>Selamat ulang tahun, sahabatku! 🎂</p>
+        <p>Terima kasih sudah selalu ada, di setiap tawa, setiap cerita, dan bahkan di saat-saat sulit. Kamu selalu jadi orang yang bisa aku andalkan, yang sering bikin hari-hariku lebih berwarna.</p>
+        <p>Aku harap semua impianmu bisa tercapai, kamu selalu sehat, bahagia, dan dikelilingi oleh orang-orang baik. Semoga langkahmu selalu dimudahkan dan hatimu selalu punya alasan untuk tersenyum.</p>
+        <p>Jangan pernah berubah, tetap jadi dirimu yang luar biasa. Aku bangga punya sahabat sepertimu.</p>
+        <p>Selamat ulang tahun, Afi! Semoga tahun ini membawa banyak hal indah. ♡</p>
+        <p class="signature">— Sahabatmu, selamanya ♥</p>
+        <button class="primary-btn close-letter" id="closeLetter">Tutup Surat</button>
+      </article>
+      <button class="outline-btn" data-next="ending">Lihat pesan terakhir →</button>
+    </section>
+
+    <section class="page ending" id="ending">
+      <p class="eyebrow">Hari spesial untuk orang spesial</p>
+      <div class="moon">☾</div>
+      <h2 class="script-heading">Selamat Ulang Tahun, Afi <span class="pink">♡</span></h2>
+      <p class="ending-message">Semoga semua harapanmu jadi nyata,<br>semua langkahmu dimudahkan,<br>dan kamu selalu dikelilingi oleh kebahagiaan.</p>
+      <p class="ending-message">Terima kasih sudah menjadi sahabat yang luar biasa.</p>
+      <p class="forever">Always be happy, Afi! ♡</p>
+      <button class="primary-btn" id="replay">⌂ &nbsp; Kembali ke Awal</button>
+      <p class="tiny-note">Dibuat dengan penuh cinta untukmu ♡</p>
+    </section>
+  </main>
+
+  <audio id="bgMusic" loop preload="none">
+    <!-- Tambahkan file musik milikmu sendiri bernama music.mp3 di folder ini, lalu hapus komentar di bawah. -->
+    <!-- <source src="music.mp3" type="audio/mpeg"> -->
+  </audio>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
